@@ -1,0 +1,7 @@
+#maps Maven properties from the pom.xml into the /info endpoint.
+info: # add this section
+  build:
+    artifact: @project.artifactId@
+    name: @project.name@
+    description: @project.description@
+    version: @project.version@
